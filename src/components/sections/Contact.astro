@@ -3,19 +3,24 @@ import CheapButton from "../utils/CheapButton.astro";
 import ContactInput from "../utils/ContactInput.astro";
 ---
 
-<section class="mb-20">
-	<h2 class="text-title mb-8">keep in touch with us</h2>
-	<form class="grid gap-4 md:grid-cols-2 md:gap-8">
-		<ContactInput id="1" label="name" placeholder="input your name" />
-		<ContactInput id="2" label="company" placeholder="input your company" />
-		<ContactInput id="2" type="email" label="email" placeholder="input your email" />
-        <div>
-            <span class="block mb-2 opacity-80">services</span>
-            <div class="flex items-end gap-4 flex-wrap text-sm">
-                <CheapButton>architecture</CheapButton>
-                <CheapButton>interior</CheapButton>
-                <CheapButton>furnitures</CheapButton>
-            </div>
-        </div>
-	</form>
+<section class="mb-20" id="contact">
+  <h2 class="text-title mb-8">お問い合わせ</h2>
+  <form class="grid gap-4 md:grid-cols-2 md:gap-8">
+    <ContactInput id="1" label="お名前" placeholder="お名前を入力" />
+    <ContactInput id="2" label="会社名" placeholder="会社名を入力" />
+    <ContactInput
+      id="3"
+      type="email"
+      label="メールアドレス"
+      placeholder="メールアドレスを入力"
+    />
+    <div>
+      <span class="block mb-2 opacity-80">ご用件</span>
+      <div class="flex items-end gap-4 flex-wrap text-sm">
+        <CheapButton>製品について</CheapButton>
+        <CheapButton>導入相談</CheapButton>
+        <CheapButton>資料請求</CheapButton>
+      </div>
+    </div>
+  </form>
 </section>

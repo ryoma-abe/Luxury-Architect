@@ -1,22 +1,22 @@
 [
-	{
-		"title": "residential",
-		"description": "provide a full engaging experience in building information modelling. we have embraced this technology with the aim of streamlining our production process"
-	},
-	{
-		"title": "bussines",
-		"description": "provide a full engaging experience in building information modelling. we have embraced this technology with the aim of streamlining our production process"
-	},
-    {
-		"title": "hospitality",
-		"description": "provide a full engaging experience in building information modelling. we have embraced this technology with the aim of streamlining our production process"
-	},
-    {
-		"title": "industrial",
-		"description": "provide a full engaging experience in building information modelling. we have embraced this technology with the aim of streamlining our production process"
-	},
-    {
-		"title": "educational",
-		"description": "provide a full engaging experience in building information modelling. we have embraced this technology with the aim of streamlining our production process"
-	}
+  {
+    "title": "システムインテグレーション",
+    "description": "基幹システムから業務アプリケーションまで、お客様のビジネスに最適なITシステムの設計・構築・運用をワンストップで提供します"
+  },
+  {
+    "title": "クラウドソリューション",
+    "description": "AWSやAzureなどのクラウドプラットフォームを活用し、セキュアで拡張性の高いインフラ環境を実現します"
+  },
+  {
+    "title": "AIソリューション",
+    "description": "機械学習や自然言語処理などの最新AI技術を活用し、業務効率化や新規サービス創出を支援します"
+  },
+  {
+    "title": "IoTソリューション",
+    "description": "センサーやデバイスからのデータ収集・分析基盤の構築により、製造現場のDXを推進します"
+  },
+  {
+    "title": "セキュリティ対策",
+    "description": "情報セキュリティ診断からセキュリティ製品の導入まで、多層的なセキュリティ対策を提供します"
+  }
 ]
